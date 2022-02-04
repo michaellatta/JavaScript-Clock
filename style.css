@@ -29,6 +29,7 @@ body {
     text-align: center;
     transform: rotate(var(--rotation));
     font-size: 1.5rem;
+    bottom: 1px;
 }
 
 .clock .number1 { --rotation: 30deg;}
@@ -87,4 +88,12 @@ body {
     width: 10px;
     height: 35%;
     background-color: black;
+}
+
+.offset {
+    display: inline-block;
+    position: relative;
+    left: 130px;
+    top: 172px;
+    font-size: 20px;
 }
