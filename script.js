@@ -60,6 +60,9 @@ function generateClock(offset) {
     //     <div class="number number12">12</div>
     // </div>
 
+    // Attempt to inset a new div around all of "clock"
+    // This code would likely go here
+
     const newDiv = document.createElement("div");
     newDiv.className = "clock";
     document.body.append(newDiv);
